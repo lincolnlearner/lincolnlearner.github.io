@@ -431,3 +431,45 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+
+/* Extra love
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+img{
+  height: 100%;
+  width: 100%;
+}
+
+#row-header{
+  margin-top: 2%
+}
+
+#text-bar{
+  margin-top: 0%
+}
+
+#row-body{
+  padding-top: 2%;
+}
+
+.row{
+  padding-top: 0%;
+}
+
+#read-more{
+  padding-top: 3%;
+}
+
+h1{
+    font-family: 'Droid Serif', serif;
+}
+
+h5{
+  font-family: 'Droid Sans', sans-serif;
+}
+
+#twitter-icon{
+  width: 4%;
+  height: 4%;
+  margin-top:0%;
+  margin-bottom:0%;
+}
