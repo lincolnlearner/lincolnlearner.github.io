@@ -3,7 +3,11 @@ layout: post
 title: First Post
 ---
 ---
-{% include image name="bb.jpg" caption="Sharing my blog on LinkedIn" %}
+<figure>![](/images/posts/2017-07-02-first-post/bb.jpg)
+
+<figcaption>Sharing my blog on LinkedIn</figcaption>
+
+</figure>
 ---
 ### Over The Hedge - Property of Dreamworks Entertainment
 Oh, no! 
