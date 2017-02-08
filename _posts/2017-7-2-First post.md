@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Default Post
+title: First Post
 ---
-{% include image name="bb.jpg" caption="Sharing my blog on LinkedIn" %}
+ {% include image name="bb.jpg" caption="Sharing my blog on LinkedIn" %}
 
 ### Over The Hedge - Property of Dreamworks Entertainment
 Oh, no! 
