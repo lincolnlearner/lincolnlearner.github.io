@@ -6,11 +6,13 @@ published: true
 
   <div class="row">
     <div class="nine columns">
-<div class="blog-index">  
-  {% assign post = site.posts.first %}
-  {% assign content = post.content %}
-  {% include post_detail.html %}
-</div>
+<ul>
+  {% for post in site.posts do %}
+  <li>
+    {{ post.date }} <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
     </div>
     <div class="three columns">
      {{ site.baseurl }}{{ post.url }}     
